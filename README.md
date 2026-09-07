@@ -68,3 +68,17 @@ python main.py
 
 Press `Q` to exit.
 ::
+
+## PiP Control
+
+`pip_control.py` controls what happens to the PiP when a target person is detected.
+
+You can edit this file to decide how the PiP should be handled by the system:
+
+* Hide the PiP
+* Close the PiP
+* Kill the PiP process
+* Use another method
+
+The face-recognition system only detects the target and calls `pip_control.py`. The actual PiP handling is up to your implementation.
+
